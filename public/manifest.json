@@ -1,0 +1,60 @@
+{
+  "name": "TechLearn Pro - CRC Training",
+  "short_name": "TechLearn Pro",
+  "description": "Progressive Web App for volunteer training modules",
+  "start_url": "/crc-training/",
+  "scope": "/crc-training/",
+  "display": "standalone",
+  "background_color": "#0F1419",
+  "theme_color": "#00D9FF",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/crc-training/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/crc-training/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/crc-training/icon-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/crc-training/screenshot-1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/crc-training/screenshot-2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Live Stream Training",
+      "short_name": "Live Stream",
+      "description": "Access Live Stream training modules",
+      "url": "/crc-training/?section=live-stream",
+      "icons": [
+        {
+          "src": "/crc-training/icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
